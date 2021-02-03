@@ -1,4 +1,4 @@
-## 1. TO start the terraform Initializaton.
+## 1. To start the terraform Initializaton.
     terraform init
 ## 2. Terraform recommend using consistent formatting in files and modules written by different teams.
     terraform fmt
@@ -26,6 +26,7 @@
     terraform state list
 
 # Test 
+
 ## 1. AWS console check
 
 ![alt](https://github.com/sada498/Terraform/blob/main/AWS/img/awsconsole.JPG)
