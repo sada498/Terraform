@@ -14,6 +14,37 @@
 
 * 1. Create service account key.
 * 2. For role choose *Project -> Editor*
+![alt](https://github.com/sada498/Terraform/blob/main/GCP/img/service%20account%20details.JPG)
+
+<details><summary>gcp-network</summary>
+<p>
+
+## 1. add the your path *.jason* key to cedentials in **provider**
+
+## 2.Initialize the Terraform
+
+    terraform init
+
+## 3. you can validate your configuration 
+
+    teraform validate
+
+## 4. Apply the gcp infrastructure
+
+    terraform apply
+
+> all the configuration as expected youm can enter yes to build your infrastructure
+
+## 5. check the infrastructure
+
+    terraform show
+
 ![alt](https://link)
+</p>
+</details>
 
+<details><summary>gcp-network</summary>
+<p>
 
+</p>
+</details>
