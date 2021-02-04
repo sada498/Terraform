@@ -67,7 +67,7 @@
 
     terraform show
 
-![]()
+![](https://github.com/sada498/Terraform/blob/main/GCP/img/gcpinstance.JPG)
 
 **you try to uncomment for the image for instance to checkthe redeploy the gcp infrastructure**
 
