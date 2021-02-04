@@ -8,11 +8,17 @@ terraform {
 }
 
 provider "azurerm" {
-subscription_id = "0f39574d-d756-48cf-b622-0e27a6943bd2"
-  tenantId= "3617ef9b-98b4-40d9-ba43-e1ed6709cf0d"
+
+features {}
+
 }
 
-resource "azurerm_resource_group" "rg" {
-  name     = "myTFResourceGroup"
-  location = "eastus"
+# resource "azurerm_resource_group" "rg" {
+#     name     = "1-be1f2f1e-playground-sandbox"
+#   location = "west us"
+# }
+output "azurerm_resource_group" {
+  name =azurerm_resource_group.rg
+
+  
 }
