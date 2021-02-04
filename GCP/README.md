@@ -39,12 +39,45 @@
 
     terraform show
 
-![alt](https://link)
+![alt](https://github.com/sada498/Terraform/blob/main/GCP/img/gcpnetworkresult.JPG)
+
 </p>
 </details>
 
-<details><summary>gcp-network</summary>
+<details><summary>gcp-instance</summary>
 <p>
+
+# Configure the  
+
+## 1.Initialize the Terraform
+
+    terraform init
+
+## 2. you can validate your configuration 
+
+    teraform validate
+
+## 3. Apply the gcp infrastructure
+
+    terraform apply
+
+> all the configuration as expected youm can enter yes to build your infrastructure
+
+## 4. check the infrastructure
+
+    terraform show
+
+![]()
+
+**you try to uncomment for the image for instance to checkthe redeploy the gcp infrastructure**
+
+    boot_disk {
+    initialize_params {
+    
+    # image = "debian-cloud/debian-9"
+    image = "cos-cloud/cos-stable"
+        }
+    }
 
 </p>
 </details>
