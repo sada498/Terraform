@@ -13,8 +13,12 @@
 > If you already login your account in browser click here to [Create Service Account Key](https://console.cloud.google.com/apis/credentials/serviceaccountkey)
 
 * 1. Create service account key.
+
 * 2. For role choose *Project -> Editor*
+
 ![alt](https://github.com/sada498/Terraform/blob/main/GCP/img/service%20account%20details.JPG)
+
+
 
 <details><summary>gcp-network</summary>
 <p>
