@@ -75,3 +75,8 @@
 
 </p>
 </details>
+<details><summary>aws_vpc-2_instance-dns-s3</summary>
+<p>
+    
+</p>
+</details>
